@@ -12,7 +12,8 @@
  *     g++ -std=c++20 -o rational rational.cpp
  */
 
-int main(void) {
+int main(void) 
+{
     using rat = rational<int>;
     
     rat r1(1,3);
